@@ -7,10 +7,6 @@ namespace DIO_dotNetPOO.Models
 {
     public class Professor : Pessoa
     {
-        public Professor()
-        {
-
-        }
         public Professor(string nome) : base(nome) // OBRIGATÓRIO POR A CLASSE PAI TER UM CONSTRUTOR
         {
 
